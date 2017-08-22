@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "User": {
+    "dataSource": "mLabDS"
+  },
+  "AccessToken": {
+    "dataSource": "mLabDS",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "mLabDS",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mLabDS",
+    "public": false,
+    "options": {
+      "strictObjectIDCoercion": true
+    }
+  },
+  "Role": {
+    "dataSource": "mLabDS",
+    "public": false
+  },
+  "student": {
+    "dataSource": "mLabDS",
+    "public": true
+  }
+}

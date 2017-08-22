@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mLabDS": {
+    "host": "ds023523.mlab.com",
+    "port": 23523,
+    "url": "mongodb://dev:devpass@ds023523.mlab.com:23523/heroku_p6tz3hp3",
+    "database": "heroku_p6tz3hp3",
+    "password": "devpass",
+    "name": "mLabDS",
+    "user": "dev",
+    "connector": "mongodb"
+  }
+}
