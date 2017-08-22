@@ -38,5 +38,9 @@
   "student": {
     "dataSource": "mLabDS",
     "public": true
+  },
+  "user": {
+    "dataSource": "mLabDS",
+    "public": true
   }
 }
